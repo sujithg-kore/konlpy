@@ -5,6 +5,7 @@ import os
 import sys
 import platform
 from setuptools import find_packages, setup
+from setuptools.command.sdist import sdist
 
 
 def get_about():
@@ -61,6 +62,9 @@ setup(name='konlpy',
       ],
       license=about['__license__'],
       packages=find_packages(),
+      cmdclass={
+        'sdist':   sdist
+      },
       package_data={'konlpy': [
           'data/corpus/*/*.txt',
           'data/tagset/*.json',
