@@ -40,7 +40,7 @@ def init_jvm(jvmpath=None, max_heap_size=1024):
         '{0}{1}shineware-ds-1.0.jar',
         '{0}{1}komoran-3.0.jar',
         # Twitter (Okt)
-        '{0}{1}snakeyaml-1.28.jar',
+        '{0}{1}snakeyaml-1.29.jar',
         '{0}{1}scala-library-2.12.3.jar',
         '{0}{1}open-korean-text-2.1.0.jar',
         '{0}{1}twitter-text-1.14.7.jar',
